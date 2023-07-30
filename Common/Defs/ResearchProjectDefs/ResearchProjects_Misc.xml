@@ -89,7 +89,7 @@
         <techLevel>Ultra</techLevel>
         <prerequisites>
             <li>RoyalApparel</li>
-            <li>StandardMechtech</li>
+            <li>AdvancedFabrication</li>
         </prerequisites>
         <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <requiredResearchFacilities>
