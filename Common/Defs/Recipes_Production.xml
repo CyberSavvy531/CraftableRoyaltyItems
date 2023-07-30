@@ -19,18 +19,18 @@
             <li>
                 <filter>
                     <thingDefs>
-                        <li>ComponentSpacer</li>
-                    </thingDefs>
-                </filter>
-                <count>1</count>
-            </li>
-            <li>
-                <filter>
-                    <thingDefs>
                         <li>Cloth</li>
                     </thingDefs>
                 </filter>
                 <count>20</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Hyperweave</li>
+                    </thingDefs>
+                </filter>
+                <count>5</count>
             </li>
             <li>
                 <filter>
@@ -43,14 +43,6 @@
             <li>
                 <filter>
                     <thingDefs>
-                        <li>Gold</li>
-                    </thingDefs>
-                </filter>
-                <count>0.3</count>
-            </li>
-            <li>
-                <filter>
-                    <thingDefs>
                         <li>Silver</li>
                     </thingDefs>
                 </filter>
@@ -59,21 +51,28 @@
             <li>
                 <filter>
                     <thingDefs>
-                        <li>Hyperweave</li>
+                        <li>Gold</li>
                     </thingDefs>
                 </filter>
-                <count>5</count>
+                <count>0.3</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>ComponentSpacer</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
             </li>
         </ingredients>
         <fixedIngredientFilter>
             <thingDefs>
-                <li>ComponentSpacer</li>
                 <li>Cloth</li>
-                <li>Plasteel</li>
-                <li>Gold</li>
-                <li>Silver</li>
                 <li>Hyperweave</li>
-                <li>Dye</li>
+                <li>Plasteel</li>
+                <li>Silver</li>
+                <li>Gold</li>
+                <li>ComponentSpacer</li>
             </thingDefs>
         </fixedIngredientFilter>
         <products>
@@ -102,14 +101,6 @@
             <li>
                 <filter>
                     <thingDefs>
-                        <li>ComponentSpacer</li>
-                    </thingDefs>
-                </filter>
-                <count>1</count>
-            </li>
-            <li>
-                <filter>
-                    <thingDefs>
                         <li>Cloth</li>
                     </thingDefs>
                 </filter>
@@ -118,10 +109,10 @@
             <li>
                 <filter>
                     <thingDefs>
-                        <li>Gold</li>
+                        <li>Hyperweave</li>
                     </thingDefs>
                 </filter>
-                <count>0.3</count>
+                <count>5</count>
             </li>
             <li>
                 <filter>
@@ -134,20 +125,27 @@
             <li>
                 <filter>
                     <thingDefs>
-                        <li>Hyperweave</li>
+                        <li>Gold</li>
                     </thingDefs>
                 </filter>
-                <count>5</count>
+                <count>0.3</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>ComponentSpacer</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
             </li>
         </ingredients>
         <fixedIngredientFilter>
             <thingDefs>
-                <li>ComponentSpacer</li>
                 <li>Cloth</li>
-                <li>Gold</li>
-                <li>Silver</li>
                 <li>Hyperweave</li>
-                <li>Dye</li>
+                <li>Silver</li>
+                <li>Gold</li>
+                <li>ComponentSpacer</li>
             </thingDefs>
         </fixedIngredientFilter>
         <products>
@@ -176,14 +174,6 @@
             <li>
                 <filter>
                     <thingDefs>
-                        <li>ComponentSpacer</li>
-                    </thingDefs>
-                </filter>
-                <count>2</count>
-            </li>
-            <li>
-                <filter>
-                    <thingDefs>
                         <li>Cloth</li>
                     </thingDefs>
                 </filter>
@@ -192,10 +182,10 @@
             <li>
                 <filter>
                     <thingDefs>
-                        <li>Gold</li>
+                        <li>Hyperweave</li>
                     </thingDefs>
                 </filter>
-                <count>0.5</count>
+                <count>10</count>
             </li>
             <li>
                 <filter>
@@ -208,20 +198,27 @@
             <li>
                 <filter>
                     <thingDefs>
-                        <li>Hyperweave</li>
+                        <li>Gold</li>
                     </thingDefs>
                 </filter>
-                <count>10</count>
+                <count>0.5</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>ComponentSpacer</li>
+                    </thingDefs>
+                </filter>
+                <count>2</count>
             </li>
         </ingredients>
         <fixedIngredientFilter>
             <thingDefs>
-                <li>ComponentSpacer</li>
                 <li>Cloth</li>
-                <li>Gold</li>
-                <li>Silver</li>
                 <li>Hyperweave</li>
-                <li>Dye</li>
+                <li>Silver</li>
+                <li>Gold</li>
+                <li>ComponentSpacer</li>
             </thingDefs>
         </fixedIngredientFilter>
         <products>
@@ -250,14 +247,6 @@
             <li>
                 <filter>
                     <thingDefs>
-                        <li>ComponentSpacer</li>
-                    </thingDefs>
-                </filter>
-                <count>2</count>
-            </li>
-            <li>
-                <filter>
-                    <thingDefs>
                         <li>Cloth</li>
                     </thingDefs>
                 </filter>
@@ -266,10 +255,10 @@
             <li>
                 <filter>
                     <thingDefs>
-                        <li>Gold</li>
+                        <li>Hyperweave</li>
                     </thingDefs>
                 </filter>
-                <count>0.5</count>
+                <count>10</count>
             </li>
             <li>
                 <filter>
@@ -282,20 +271,27 @@
             <li>
                 <filter>
                     <thingDefs>
-                        <li>Hyperweave</li>
+                        <li>Gold</li>
                     </thingDefs>
                 </filter>
-                <count>10</count>
+                <count>0.5</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>ComponentSpacer</li>
+                    </thingDefs>
+                </filter>
+                <count>2</count>
             </li>
         </ingredients>
         <fixedIngredientFilter>
             <thingDefs>
-                <li>ComponentSpacer</li>
                 <li>Cloth</li>
-                <li>Gold</li>
-                <li>Silver</li>
                 <li>Hyperweave</li>
-                <li>Dye</li>
+                <li>Silver</li>
+                <li>Gold</li>
+                <li>ComponentSpacer</li>
             </thingDefs>
         </fixedIngredientFilter>
         <products>
@@ -324,14 +320,6 @@
             <li>
                 <filter>
                     <thingDefs>
-                        <li>ComponentSpacer</li>
-                    </thingDefs>
-                </filter>
-                <count>3</count>
-            </li>
-            <li>
-                <filter>
-                    <thingDefs>
                         <li>Cloth</li>
                     </thingDefs>
                 </filter>
@@ -340,10 +328,10 @@
             <li>
                 <filter>
                     <thingDefs>
-                        <li>Gold</li>
+                        <li>Hyperweave</li>
                     </thingDefs>
                 </filter>
-                <count>1.5</count>
+                <count>15</count>
             </li>
             <li>
                 <filter>
@@ -356,20 +344,27 @@
             <li>
                 <filter>
                     <thingDefs>
-                        <li>Hyperweave</li>
+                        <li>Gold</li>
                     </thingDefs>
                 </filter>
-                <count>15</count>
+                <count>1.5</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>ComponentSpacer</li>
+                    </thingDefs>
+                </filter>
+                <count>3</count>
             </li>
         </ingredients>
         <fixedIngredientFilter>
             <thingDefs>
-                <li>ComponentSpacer</li>
                 <li>Cloth</li>
-                <li>Gold</li>
-                <li>Silver</li>
                 <li>Hyperweave</li>
-                <li>Dye</li>
+                <li>Silver</li>
+                <li>Gold</li>
+                <li>ComponentSpacer</li>
             </thingDefs>
         </fixedIngredientFilter>
         <products>
