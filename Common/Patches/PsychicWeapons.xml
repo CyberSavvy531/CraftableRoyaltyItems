@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<!-- Royalty\Defs\ThingDefs_Misc\Weapons\PsychicWeapons.xml -->
+
+	<!-- MeleeWeapon_PsyfocusStaff -->
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="MeleeWeapon_PsyfocusStaff"]</xpath>
+		<value>
+			<recipeMaker>
+				<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+				<workSkill>Crafting</workSkill>
+				<effectWorking>Smith</effectWorking>
+				<soundWorking>Recipe_Smith</soundWorking>
+				<recipeUsers>
+					<li>FabricationBench</li>
+				</recipeUsers>
+				<unfinishedThingDef>UnfinishedUltraWeapon</unfinishedThingDef>
+				<researchPrerequisite>EltexStaff</researchPrerequisite>
+				<skillRequirements>
+					<Crafting>18</Crafting>
+				</skillRequirements>
+			</recipeMaker>
+			<costList>
+				<PowerfocusChip>1</PowerfocusChip>
+				<SignalChip>1</SignalChip>
+				<Plasteel>100</Plasteel>
+				<Uranium>50</Uranium>
+				<ComponentSpacer>8</ComponentSpacer>
+			</costList>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="MeleeWeapon_PsyfocusStaff"]/statBases</xpath>
+		<value>
+			<WorkToMake>75000</WorkToMake>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="MeleeWeapon_PsyfocusStaff"]/statBases/MarketValue</xpath>
+		<value>
+			<MarketValue>5500</MarketValue>
+		</value>
+	</Operation>
+
+</Patch>

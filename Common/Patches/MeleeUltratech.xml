@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<!-- Royalty\Defs\ThingDefs_Misc\Weapons\MeleeUltratech.xml -->
+
+	<!-- MeleeWeapon_MonoSword -->
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="MeleeWeapon_MonoSword"]</xpath>
+		<value>
+			<recipeMaker>
+				<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+				<workSkill>Crafting</workSkill>
+				<effectWorking>Smith</effectWorking>
+				<soundWorking>Recipe_Smith</soundWorking>
+				<recipeUsers>
+					<li>FabricationBench</li>
+				</recipeUsers>
+				<unfinishedThingDef>UnfinishedUltraWeapon</unfinishedThingDef>
+				<researchPrerequisite>UltraWeapons</researchPrerequisite>
+				<skillRequirements>
+					<Crafting>16</Crafting>
+				</skillRequirements>
+			</recipeMaker>
+			<costList>
+				<ArchiteCapsule>1</ArchiteCapsule>
+				<Plasteel>125</Plasteel>
+				<Uranium>25</Uranium>
+				<ComponentSpacer>6</ComponentSpacer>
+			</costList>
+			<statBases>
+				<MarketValue>4000</MarketValue>
+				<WorkToMake>75000</WorkToMake>
+			</statBases>
+		</value>
+	</Operation>
+
+	<!-- MeleeWeapon_Zeushammer -->
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="MeleeWeapon_Zeushammer"]</xpath>
+		<value>
+			<recipeMaker>
+				<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+				<workSkill>Crafting</workSkill>
+				<effectWorking>Smith</effectWorking>
+				<soundWorking>Recipe_Smith</soundWorking>
+				<recipeUsers>
+					<li>FabricationBench</li>
+				</recipeUsers>
+				<unfinishedThingDef>UnfinishedUltraWeapon</unfinishedThingDef>
+				<researchPrerequisite>UltraWeapons</researchPrerequisite>
+				<skillRequirements>
+					<Crafting>16</Crafting>
+				</skillRequirements>
+			</recipeMaker>
+			<costList>
+				<ArchiteCapsule>1</ArchiteCapsule>
+				<Plasteel>140</Plasteel>
+				<Uranium>35</Uranium>
+				<ComponentSpacer>6</ComponentSpacer>
+			</costList>
+			<statBases>
+				<MarketValue>4000</MarketValue>
+				<WorkToMake>75000</WorkToMake>
+			</statBases>
+		</value>
+	</Operation>
+
+	<!-- MeleeWeapon_PlasmaSword -->
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="MeleeWeapon_PlasmaSword"]</xpath>
+		<value>
+			<recipeMaker>
+				<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+				<workSkill>Crafting</workSkill>
+				<effectWorking>Smith</effectWorking>
+				<soundWorking>Recipe_Smith</soundWorking>
+				<recipeUsers>
+					<li>FabricationBench</li>
+				</recipeUsers>
+				<unfinishedThingDef>UnfinishedUltraWeapon</unfinishedThingDef>
+				<researchPrerequisite>UltraWeapons</researchPrerequisite>
+				<skillRequirements>
+					<Crafting>16</Crafting>
+				</skillRequirements>
+			</recipeMaker>
+			<costList>
+				<ArchiteCapsule>1</ArchiteCapsule>
+				<Plasteel>125</Plasteel>
+				<Uranium>25</Uranium>
+				<ComponentSpacer>6</ComponentSpacer>
+				<Chemfuel>50</Chemfuel> <!-- 2.3 -->
+			</costList>
+			<statBases>
+				<MarketValue>4000</MarketValue>
+				<WorkToMake>75000</WorkToMake>
+			</statBases>
+		</value>
+	</Operation>
+
+</Patch>

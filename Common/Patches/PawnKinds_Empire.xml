@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<!-- Royalty\Defs\PawnKinds\PawnKinds_Empire.xml -->
+
+	<!-- Empire_Fighter_StellicGuardMelee -->
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/PawnKindDef[defName="Empire_Fighter_StellicGuardMelee"]</xpath>
+		<value>
+			<weaponMoney>12000~14000</weaponMoney> <!-- Bladelink Weapon -->
+		</value>
+	</Operation>
+
+	<!-- RoyalBase -->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/PawnKindDef[@Name="RoyalBase"]/weaponMoney</xpath>
+		<value>
+			<weaponMoney>5200~6200</weaponMoney> <!-- Ultra Weapon -->
+		</value>
+	</Operation>
+
+</Patch>

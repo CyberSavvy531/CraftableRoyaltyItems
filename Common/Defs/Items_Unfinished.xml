@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <ThingDef ParentName="UnfinishedBase">
+        <defName>UnfinishedUltraWeapon</defName>
+        <label>unfinished ultra weapon</label>
+        <description>An unfinished ultra weapon.</description>
+        <statBases>
+            <Flammability>0.5</Flammability>
+        </statBases>
+        <graphicData>
+            <texPath>Things/Item/Unfinished/UnfinishedWeapon</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <stuffCategories Inherit="false" />
+    </ThingDef>
+
+    <ThingDef ParentName="UnfinishedBase">
+        <defName>UnfinishedEltexApparel</defName>
+        <label>unfinished eltex</label>
+        <description>An unfinished piece of eltex apparel.</description>
+        <statBases>
+            <Flammability>0.5</Flammability>
+        </statBases>
+        <graphicData>
+            <texPath>Things/Item/Unfinished/UnfinishedApparel</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <color>(160,160,160)</color>
+        </graphicData>
+        <stuffCategories Inherit="false" />
+    </ThingDef>
+
+</Defs>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Craftable Royalty Items</name>
+	<author>Cyber</author>
+	<packageId>Cyber.CraftableRoyaltyItems</packageId>
+	<supportedVersions>
+		<li>1.4</li>
+	</supportedVersions>
+	<forceLoadAfter>
+		<li>Ludeon.RimWorld.Royalty</li>
+		<li>Ludeon.RimWorld.Biotech</li>
+ 	</forceLoadAfter>
+	<description>
+Introduces crafting recipes for the various apparel, weapons, and items introduced in Royalty.
+	</description>
+</ModMetaData>

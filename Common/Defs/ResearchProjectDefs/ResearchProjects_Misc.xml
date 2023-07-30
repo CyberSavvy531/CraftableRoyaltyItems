@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <ResearchProjectDef>
+        <defName>UltraWeapons</defName>
+        <label>ultra weapons</label>
+        <description>Using knowledge acquired from the empire, craft ultra melee weapons that can
+            bring down even the toughest opponents.</description>
+        <baseCost>10000</baseCost>
+        <techLevel>Ultra</techLevel>
+        <prerequisites>
+            <li>UltraMechtech</li>
+            <li>AdvancedFabrication</li>
+            <li>Archogenetics</li>
+        </prerequisites>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+            <li>MultiAnalyzer</li>
+        </requiredResearchFacilities>
+        <researchViewX>0</researchViewX>
+        <researchViewY>0</researchViewY>
+        <techprintCount>2</techprintCount>
+        <techprintCommonality>1</techprintCommonality>
+        <techprintMarketValue>10000</techprintMarketValue>
+        <heldByFactionCategoryTags>
+            <li>Empire</li>
+        </heldByFactionCategoryTags>
+        <tab>CraftableRoyaltyItems</tab>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef>
+        <defName>PersonaWeapons</defName>
+        <label>persona weapons</label>
+        <description>Craft mythical weapons with edges as sharp and brutal as the persona's mind that now resides within.
+            All who find themselves against these weapons should question the choices that led them to such a situation.</description>
+        <baseCost>20000</baseCost>
+        <techLevel>Ultra</techLevel>
+        <prerequisites>
+            <li>UltraWeapons</li>
+            <!-- <li>PsychicAmplifier</li> -->
+        </prerequisites>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+            <li>MultiAnalyzer</li>
+        </requiredResearchFacilities>
+        <researchViewX>1</researchViewX>
+        <researchViewY>0</researchViewY>
+        <techprintCount>4</techprintCount>
+        <techprintCommonality>0.5</techprintCommonality>
+        <techprintMarketValue>20000</techprintMarketValue>
+        <heldByFactionCategoryTags>
+            <li>Empire</li>
+        </heldByFactionCategoryTags>
+        <tab>CraftableRoyaltyItems</tab>
+    </ResearchProjectDef>
+
+    <!-- <ResearchProjectDef>
+        <defName>PsychicAmplifier</defName>
+        <label>psylink neuroformers</label>
+        <description>Craft psylink neuroformers, a cherished secret of the empire. To have this
+            knowledge is to rule the Rim.</description>
+        <baseCost>20000</baseCost>
+        <techLevel>Ultra</techLevel>
+        <prerequisites>
+            <li>UltraMechtech</li>
+            <li>AdvancedFabrication</li>
+            <li>Archogenetics</li>
+        </prerequisites>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+            <li>MultiAnalyzer</li>
+        </requiredResearchFacilities>
+        <researchViewX>0</researchViewX>
+        <researchViewY>1</researchViewY>
+        <techprintCount>5</techprintCount>
+        <techprintCommonality>0.7</techprintCommonality>
+        <techprintMarketValue>15000</techprintMarketValue>
+        <heldByFactionCategoryTags>
+            <li>Empire</li>
+        </heldByFactionCategoryTags>
+        <tab>CraftableRoyaltyItems</tab>
+    </ResearchProjectDef> -->
+
+    <ResearchProjectDef>
+        <defName>EltexApparel</defName>
+        <label>Eltex Apparel</label>
+        <description>Craft eltex apparel to enhance and amplify psychic abilities.</description>
+        <baseCost>7500</baseCost>
+        <techLevel>Ultra</techLevel>
+        <prerequisites>
+            <li>RoyalApparel</li>
+            <li>StandardMechtech</li>
+        </prerequisites>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+            <li>MultiAnalyzer</li>
+        </requiredResearchFacilities>
+        <researchViewX>0</researchViewX>
+        <researchViewY>1</researchViewY>
+        <techprintCount>2</techprintCount>
+        <techprintCommonality>0.8</techprintCommonality>
+        <techprintMarketValue>7500</techprintMarketValue>
+        <heldByFactionCategoryTags>
+            <li>Empire</li>
+        </heldByFactionCategoryTags>
+        <tab>CraftableRoyaltyItems</tab>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef>
+        <defName>EltexStaff</defName>
+        <label>Eltex Staff</label>
+        <description>Craft eltex staves to further strengthen psychic abilities.</description>
+        <baseCost>6000</baseCost>
+        <techLevel>Ultra</techLevel>
+        <prerequisites>
+            <li>EltexApparel</li>
+            <li>HighMechtech</li>
+        </prerequisites>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+            <li>MultiAnalyzer</li>
+        </requiredResearchFacilities>
+        <researchViewX>1</researchViewX>
+        <researchViewY>1</researchViewY>
+        <techprintCount>2</techprintCount>
+        <techprintCommonality>0.5</techprintCommonality>
+        <techprintMarketValue>12500</techprintMarketValue>
+        <heldByFactionCategoryTags>
+            <li>Empire</li>
+        </heldByFactionCategoryTags>
+        <tab>CraftableRoyaltyItems</tab>
+    </ResearchProjectDef>
+
+</Defs>

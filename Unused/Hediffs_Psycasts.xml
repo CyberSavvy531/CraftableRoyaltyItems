@@ -1,0 +1,50 @@
+<!-- <?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<!-- Core\Defs\HediffDefs\Hediffs_Psycasts.xml -->
+
+	<!-- PsychicAmplifier -->
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="PsychicAmplifier"]</xpath>
+		<value>
+			<recipeMaker>
+				<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+				<workSkill>Crafting</workSkill>
+				<effectWorking>Smith</effectWorking>
+				<soundWorking>Recipe_Smith</soundWorking>
+				<recipeUsers>
+					<li>FabricationBench</li>
+				</recipeUsers>
+				<unfinishedThingDef>UnfinishedHealthItemBionic</unfinishedThingDef>
+				<researchPrerequisite>PsychicAmplifier</researchPrerequisite>
+				<skillRequirements>
+					<Crafting>20</Crafting>
+				</skillRequirements>
+			</recipeMaker>
+			<costList>
+				<SubcoreHigh>1</SubcoreHigh>
+				<NanostructuringChip>1</NanostructuringChip>
+				<PowerfocusChip>1</PowerfocusChip>
+				<SignalChip>1</SignalChip>
+				<ComponentSpacer>15</ComponentSpacer>
+				<Plasteel>50</Plasteel>
+			</costList>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="PsychicAmplifier"]/statBases</xpath>
+		<value>
+			<WorkToMake>120000</WorkToMake>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="PsychicAmplifier"]/statBases/MarketValue</xpath>
+		<value>
+			<MarketValue>10000</MarketValue>
+		</value>
+	</Operation>
+
+</Patch> -->

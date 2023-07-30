@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <!-- Core\Defs\ThingDefs_Buildings\Buildings_Production.xml -->
+
+    <!-- FabricationBench -->
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="FabricationBench"]/recipes</xpath>
+        <value>
+            <li>Make_Apparel_PsyfocusHelmet</li>
+            <li>Make_Apparel_EltexSkullcap</li>
+        </value>
+    </Operation>
+
+    <!-- ElectricTailoringBench -->
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="ElectricTailoringBench"]</xpath>
+        <value>
+            <recipes>
+                <li>Make_Apparel_PsyfocusShirt</li>
+                <li>Make_Apparel_PsyfocusVest</li>
+                <li>Make_Apparel_PsyfocusRobe</li>
+            </recipes>
+        </value>
+    </Operation>
+
+</Patch>
