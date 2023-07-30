@@ -11,6 +11,6 @@
 		<li>Ludeon.RimWorld.Biotech</li>
  	</forceLoadAfter>
 	<description>
-Introduces crafting recipes for the various apparel and weapons introduced in Royalty.
+Utilizes items introduced in the Biotech DLC as ingredients in end-game crafting recipes that allow you to craft your own ultratech melee weapons, persona weapons, and eltex gear, which were first introduced in the Royalty DLC.
 	</description>
 </ModMetaData>
