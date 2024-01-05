@@ -5,7 +5,7 @@
 
     <!-- Apparel_PsyfocusHelmet -->
 
-    <RecipeDef>
+    <!-- <RecipeDef>
         <defName>Make_Apparel_PsyfocusHelmet</defName>
         <label>Make eltex helmet</label>
         <description>Make an eltex helmet.</description>
@@ -46,7 +46,7 @@
                         <li>Silver</li>
                     </thingDefs>
                 </filter>
-                <count>2.5</count>
+                <count>3</count>
             </li>
             <li>
                 <filter>
@@ -54,7 +54,7 @@
                         <li>Gold</li>
                     </thingDefs>
                 </filter>
-                <count>0.3</count>
+                <count>1</count>
             </li>
             <li>
                 <filter>
@@ -62,7 +62,7 @@
                         <li>ComponentSpacer</li>
                     </thingDefs>
                 </filter>
-                <count>1</count>
+                <count>2</count>
             </li>
         </ingredients>
         <fixedIngredientFilter>
@@ -83,11 +83,11 @@
             <Crafting>16</Crafting>
         </skillRequirements>
         <workSkill>Crafting</workSkill>
-    </RecipeDef>
+    </RecipeDef> -->
 
     <!-- Apparel_EltexSkullcap -->
 
-    <RecipeDef>
+    <!-- <RecipeDef>
         <defName>Make_Apparel_EltexSkullcap</defName>
         <label>Make eltex skullcap</label>
         <description>Make an eltex skullcap.</description>
@@ -104,7 +104,7 @@
                         <li>Cloth</li>
                     </thingDefs>
                 </filter>
-                <count>35</count>
+                <count>40</count>
             </li>
             <li>
                 <filter>
@@ -120,7 +120,7 @@
                         <li>Silver</li>
                     </thingDefs>
                 </filter>
-                <count>2.5</count>
+                <count>3</count>
             </li>
             <li>
                 <filter>
@@ -128,7 +128,7 @@
                         <li>Gold</li>
                     </thingDefs>
                 </filter>
-                <count>0.3</count>
+                <count>1</count>
             </li>
             <li>
                 <filter>
@@ -136,7 +136,7 @@
                         <li>ComponentSpacer</li>
                     </thingDefs>
                 </filter>
-                <count>1</count>
+                <count>3</count>
             </li>
         </ingredients>
         <fixedIngredientFilter>
@@ -156,11 +156,11 @@
             <Crafting>16</Crafting>
         </skillRequirements>
         <workSkill>Crafting</workSkill>
-    </RecipeDef>
+    </RecipeDef> -->
 
     <!-- Apparel_PsyfocusShirt -->
 
-    <RecipeDef>
+    <!-- <RecipeDef>
         <defName>Make_Apparel_PsyfocusShirt</defName>
         <label>Make eltex shirt</label>
         <description>Make an eltex shirt.</description>
@@ -209,7 +209,7 @@
                         <li>ComponentSpacer</li>
                     </thingDefs>
                 </filter>
-                <count>2</count>
+                <count>4</count>
             </li>
         </ingredients>
         <fixedIngredientFilter>
@@ -229,11 +229,11 @@
             <Crafting>16</Crafting>
         </skillRequirements>
         <workSkill>Crafting</workSkill>
-    </RecipeDef>
+    </RecipeDef> -->
 
     <!-- Apparel_PsyfocusVest -->
 
-    <RecipeDef>
+    <!-- <RecipeDef>
         <defName>Make_Apparel_PsyfocusVest</defName>
         <label>Make eltex vest</label>
         <description>Make an eltex vest.</description>
@@ -282,7 +282,7 @@
                         <li>ComponentSpacer</li>
                     </thingDefs>
                 </filter>
-                <count>2</count>
+                <count>4</count>
             </li>
         </ingredients>
         <fixedIngredientFilter>
@@ -302,11 +302,11 @@
             <Crafting>16</Crafting>
         </skillRequirements>
         <workSkill>Crafting</workSkill>
-    </RecipeDef>
+    </RecipeDef> -->
 
     <!-- Apparel_PsyfocusRobe -->
 
-    <RecipeDef>
+    <!-- <RecipeDef>
         <defName>Make_Apparel_PsyfocusRobe</defName>
         <label>Make eltex robe</label>
         <description>Make an eltex robe.</description>
@@ -355,7 +355,7 @@
                         <li>ComponentSpacer</li>
                     </thingDefs>
                 </filter>
-                <count>3</count>
+                <count>8</count>
             </li>
         </ingredients>
         <fixedIngredientFilter>
@@ -375,6 +375,6 @@
             <Crafting>16</Crafting>
         </skillRequirements>
         <workSkill>Crafting</workSkill>
-    </RecipeDef>
+    </RecipeDef> -->
 
 </Defs>

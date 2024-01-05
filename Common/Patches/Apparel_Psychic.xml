@@ -5,7 +5,7 @@
 
 	<!-- Apparel_PsyfocusHelmet -->
 
-	<!-- <Operation Class="PatchOperationAdd">
+	<Operation Class="PatchOperationAdd">
 		<xpath>/Defs/ThingDef[defName="Apparel_PsyfocusHelmet"]</xpath>
 		<value>
 			<recipeMaker>
@@ -23,13 +23,12 @@
 				</skillRequirements>
 			</recipeMaker>
 			<costList>
-				<ComponentSpacer>1</ComponentSpacer>
 				<Cloth>20</Cloth>
-				<Plasteel>10</Plasteel>
-				<Gold>0.3</Gold>
-				<Silver>2.5</Silver>
 				<Hyperweave>5</Hyperweave>
-				<Dye>1</Dye>
+				<Plasteel>10</Plasteel>
+				<Silver>3</Silver>
+				<Gold>1</Gold>
+				<ComponentSpacer>2</ComponentSpacer>
 			</costList>
 		</value>
 	</Operation>
@@ -39,18 +38,18 @@
 		<value>
 			<WorkToMake>40000</WorkToMake>
 		</value>
-	</Operation> -->
+	</Operation>
 
 	<Operation Class="PatchOperationReplace">
 		<xpath>/Defs/ThingDef[defName="Apparel_PsyfocusHelmet"]/statBases/MarketValue</xpath>
 		<value>
-			<MarketValue>600</MarketValue>
+			<MarketValue>1000</MarketValue>
 		</value>
 	</Operation>
 
 	<!-- Apparel_EltexSkullcap -->
 
-	<!-- <Operation Class="PatchOperationAdd">
+	<Operation Class="PatchOperationAdd">
 		<xpath>/Defs/ThingDef[defName="Apparel_EltexSkullcap"]</xpath>
 		<value>
 			<recipeMaker>
@@ -59,7 +58,7 @@
 				<effectWorking>Tailor</effectWorking>
 				<soundWorking>Recipe_Tailor</soundWorking>
 				<recipeUsers>
-					<li>ElectricTailoringBench</li>
+					<li>FabricationBench</li>
 				</recipeUsers>
 				<unfinishedThingDef>UnfinishedEltexApparel</unfinishedThingDef>
 				<researchPrerequisite>EltexApparel</researchPrerequisite>
@@ -68,12 +67,11 @@
 				</skillRequirements>
 			</recipeMaker>
 			<costList>
-				<ComponentSpacer>1</ComponentSpacer>
-				<Cloth>35</Cloth>
-				<Gold>0.3</Gold>
-				<Silver>2.5</Silver>
+				<Cloth>40</Cloth>
 				<Hyperweave>5</Hyperweave>
-				<Dye>1</Dye>
+				<Silver>3</Silver>
+				<Gold>1</Gold>
+				<ComponentSpacer>3</ComponentSpacer>
 			</costList>
 		</value>
 	</Operation>
@@ -83,11 +81,18 @@
 		<value>
 			<WorkToMake>30000</WorkToMake>
 		</value>
-	</Operation> -->
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="Apparel_EltexSkullcap"]/statBases/MarketValue</xpath>
+		<value>
+			<MarketValue>900</MarketValue>
+		</value>
+	</Operation>
 
 	<!-- Apparel_PsyfocusShirt -->
 
-	<!-- <Operation Class="PatchOperationAdd">
+	<Operation Class="PatchOperationAdd">
 		<xpath>/Defs/ThingDef[defName="Apparel_PsyfocusShirt"]</xpath>
 		<value>
 			<recipeMaker>
@@ -96,7 +101,7 @@
 				<effectWorking>Tailor</effectWorking>
 				<soundWorking>Recipe_Tailor</soundWorking>
 				<recipeUsers>
-					<li>ElectricTailoringBench</li>
+					<li>FabricationBench</li>
 				</recipeUsers>
 				<unfinishedThingDef>UnfinishedEltexApparel</unfinishedThingDef>
 				<researchPrerequisite>EltexApparel</researchPrerequisite>
@@ -105,12 +110,11 @@
 				</skillRequirements>
 			</recipeMaker>
 			<costList>
-				<ComponentSpacer>2</ComponentSpacer>
 				<Cloth>65</Cloth>
-				<Gold>0.5</Gold>
-				<Silver>10</Silver>
 				<Hyperweave>10</Hyperweave>
-				<Dye>1</Dye>
+				<Silver>10</Silver>
+				<Gold>3</Gold>
+				<ComponentSpacer>4</ComponentSpacer>
 			</costList>
 		</value>
 	</Operation>
@@ -120,18 +124,18 @@
 		<value>
 			<WorkToMake>45000</WorkToMake>
 		</value>
-	</Operation> -->
+	</Operation>
 
 	<Operation Class="PatchOperationReplace">
 		<xpath>/Defs/ThingDef[defName="Apparel_PsyfocusShirt"]/statBases/MarketValue</xpath>
 		<value>
-			<MarketValue>800</MarketValue>
+			<MarketValue>1200</MarketValue>
 		</value>
 	</Operation>
 
 	<!-- Apparel_PsyfocusVest -->
 
-	<!-- <Operation Class="PatchOperationAdd">
+	<Operation Class="PatchOperationAdd">
 		<xpath>/Defs/ThingDef[defName="Apparel_PsyfocusVest"]</xpath>
 		<value>
 			<recipeMaker>
@@ -140,7 +144,7 @@
 				<effectWorking>Tailor</effectWorking>
 				<soundWorking>Recipe_Tailor</soundWorking>
 				<recipeUsers>
-					<li>ElectricTailoringBench</li>
+					<li>FabricationBench</li>
 				</recipeUsers>
 				<unfinishedThingDef>UnfinishedEltexApparel</unfinishedThingDef>
 				<researchPrerequisite>EltexApparel</researchPrerequisite>
@@ -149,12 +153,11 @@
 				</skillRequirements>
 			</recipeMaker>
 			<costList>
-				<ComponentSpacer>2</ComponentSpacer>
 				<Cloth>45</Cloth>
-				<Gold>0.5</Gold>
-				<Silver>10</Silver>
 				<Hyperweave>10</Hyperweave>
-				<Dye>1</Dye>
+				<Silver>10</Silver>
+				<Gold>2</Gold>
+				<ComponentSpacer>4</ComponentSpacer>
 			</costList>
 		</value>
 	</Operation>
@@ -164,18 +167,18 @@
 		<value>
 			<WorkToMake>45000</WorkToMake>
 		</value>
-	</Operation> -->
+	</Operation>
 
 	<Operation Class="PatchOperationReplace">
 		<xpath>/Defs/ThingDef[defName="Apparel_PsyfocusVest"]/statBases/MarketValue</xpath>
 		<value>
-			<MarketValue>750</MarketValue>
+			<MarketValue>1000</MarketValue>
 		</value>
 	</Operation>
 
 	<!-- Apparel_PsyfocusRobe -->
 
-	<!-- <Operation Class="PatchOperationAdd">
+	<Operation Class="PatchOperationAdd">
 		<xpath>/Defs/ThingDef[defName="Apparel_PsyfocusRobe"]</xpath>
 		<value>
 			<recipeMaker>
@@ -184,7 +187,7 @@
 				<effectWorking>Tailor</effectWorking>
 				<soundWorking>Recipe_Tailor</soundWorking>
 				<recipeUsers>
-					<li>ElectricTailoringBench</li>
+					<li>FabricationBench</li>
 				</recipeUsers>
 				<unfinishedThingDef>UnfinishedEltexApparel</unfinishedThingDef>
 				<researchPrerequisite>EltexApparel</researchPrerequisite>
@@ -193,12 +196,11 @@
 				</skillRequirements>
 			</recipeMaker>
 			<costList>
-				<ComponentSpacer>3</ComponentSpacer>
 				<Cloth>100</Cloth>
-				<Gold>1.5</Gold>
-				<Silver>25</Silver>
 				<Hyperweave>15</Hyperweave>
-				<Dye>1</Dye>
+				<Silver>25</Silver>
+				<Gold>6</Gold>
+				<ComponentSpacer>8</ComponentSpacer>
 			</costList>
 		</value>
 	</Operation>
@@ -208,12 +210,12 @@
 		<value>
 			<WorkToMake>60000</WorkToMake>
 		</value>
-	</Operation> -->
+	</Operation>
 
 	<Operation Class="PatchOperationReplace">
 		<xpath>/Defs/ThingDef[defName="Apparel_PsyfocusRobe"]/statBases/MarketValue</xpath>
 		<value>
-			<MarketValue>1400</MarketValue>
+			<MarketValue>2200</MarketValue>
 		</value>
 	</Operation>
 

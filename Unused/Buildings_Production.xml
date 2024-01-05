@@ -5,17 +5,17 @@
 
     <!-- FabricationBench -->
 
-    <Operation Class="PatchOperationAdd">
+    <!-- <Operation Class="PatchOperationAdd">
         <xpath>/Defs/ThingDef[defName="FabricationBench"]/recipes</xpath>
         <value>
             <li>Make_Apparel_PsyfocusHelmet</li>
             <li>Make_Apparel_EltexSkullcap</li>
         </value>
-    </Operation>
+    </Operation> -->
 
     <!-- ElectricTailoringBench -->
 
-    <Operation Class="PatchOperationAdd">
+    <!-- <Operation Class="PatchOperationAdd">
         <xpath>/Defs/ThingDef[defName="ElectricTailoringBench"]</xpath>
         <value>
             <recipes>
@@ -24,6 +24,6 @@
                 <li>Make_Apparel_PsyfocusRobe</li>
             </recipes>
         </value>
-    </Operation>
+    </Operation> -->
 
 </Patch>

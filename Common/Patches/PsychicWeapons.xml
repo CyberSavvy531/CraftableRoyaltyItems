@@ -29,7 +29,7 @@
 				<Uranium>25</Uranium>
 				<Gold>1</Gold>
 				<Silver>10</Silver>
-				<ComponentSpacer>8</ComponentSpacer>
+				<ComponentSpacer>10</ComponentSpacer>
 			</costList>
 		</value>
 	</Operation>
