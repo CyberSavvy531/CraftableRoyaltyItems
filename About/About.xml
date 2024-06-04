@@ -7,9 +7,18 @@
 		<li>1.4</li>
 		<li>1.5</li>
 	</supportedVersions>
+	<description>Utilizes items introduced in the Biotech DLC as ingredients in end-game crafting recipes that allow you to craft your own ultratech melee weapons, persona weapons, and eltex gear, which were first introduced in the Royalty DLC.</description>
+	<modDependencies>
+      <li>
+          <packageId>Ludeon.RimWorld.Royalty</packageId>
+          <displayName>Royalty</displayName>
+      </li>
+      <li>
+          <packageId>Ludeon.RimWorld.Biotech</packageId>
+          <displayName>Biotech</displayName>
+      </li>
+  	</modDependencies>
 	<forceLoadAfter>
-		<li>Ludeon.RimWorld.Royalty</li>
 		<li>Ludeon.RimWorld.Biotech</li>
  	</forceLoadAfter>
-	<description>Utilizes items introduced in the Biotech DLC as ingredients in end-game crafting recipes that allow you to craft your own ultratech melee weapons, persona weapons, and eltex gear, which were first introduced in the Royalty DLC.</description>
 </ModMetaData>
