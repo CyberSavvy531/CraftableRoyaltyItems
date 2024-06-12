@@ -18,7 +18,7 @@
           <displayName>Biotech</displayName>
       </li>
   	</modDependencies>
-	<forceLoadAfter>
+	<loadAfter>
 		<li>Ludeon.RimWorld.Biotech</li>
- 	</forceLoadAfter>
+ 	</loadAfter>
 </ModMetaData>
