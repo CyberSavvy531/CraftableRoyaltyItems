@@ -8,6 +8,7 @@
         <baseCost>10000</baseCost>
         <techLevel>Ultra</techLevel>
         <prerequisites>
+            <li>LongBlades</li>
             <li>UltraMechtech</li>
             <li>AdvancedFabrication</li>
             <li>Archogenetics</li>
