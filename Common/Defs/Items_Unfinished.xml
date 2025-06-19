@@ -17,7 +17,7 @@
 
     <ThingDef ParentName="UnfinishedBase">
         <defName>UnfinishedEltexApparel</defName>
-        <label>unfinished eltex</label>
+        <label>unfinished eltex apparel</label>
         <description>An unfinished piece of eltex apparel.</description>
         <statBases>
             <Flammability>0.5</Flammability>
